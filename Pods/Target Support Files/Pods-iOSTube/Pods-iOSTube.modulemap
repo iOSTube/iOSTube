@@ -1,0 +1,6 @@
+framework module Pods_iOSTube {
+  umbrella header "Pods-iOSTube-umbrella.h"
+
+  export *
+  module * { export * }
+}
