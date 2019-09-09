@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB6158523266E10001E9CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6158423266E10001E9CFA /* AppDelegate.swift */; };
+		CEB6158723266E10001E9CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6158623266E10001E9CFA /* ViewController.swift */; };
+		CEB6158A23266E10001E9CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158823266E10001E9CFA /* Main.storyboard */; };
+		CEB6158C23266E11001E9CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158B23266E11001E9CFA /* Assets.xcassets */; };
+		CEB6158F23266E11001E9CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */; };
+		CEB6159A23266E12001E9CFA /* iOSTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6159923266E12001E9CFA /* iOSTubeTests.swift */; };
+		CEEDCF13945B29BEBD639B1F /* Pods_iOSTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77131C8C2F510E125078AC /* Pods_iOSTube.framework */; };
+		D524A313101A7ED3889B2DDD /* Pods_iOSTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24A247E49E078B317B866C9 /* Pods_iOSTubeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB6159623266E12001E9CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB6157923266E10001E9CFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB6158023266E10001E9CFA;
+			remoteInfo = iOSTube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D77131C8C2F510E125078AC /* Pods_iOSTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAF4D868F4DC70F1A1CCFD9 /* Pods-iOSTubeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTubeTests.release.xcconfig"; path = "Target Support Files/Pods-iOSTubeTests/Pods-iOSTubeTests.release.xcconfig"; sourceTree = "<group>"; };
+		C93A28506F8B68FBA4C09F04 /* Pods-iOSTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTubeTests/Pods-iOSTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB6158123266E10001E9CFA /* iOSTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB6158423266E10001E9CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB6158623266E10001E9CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB6158923266E10001E9CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB6158B23266E11001E9CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB6158E23266E11001E9CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB6159023266E11001E9CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB6159523266E12001E9CFA /* iOSTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB6159923266E12001E9CFA /* iOSTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTubeTests.swift; sourceTree = "<group>"; };
+		CEB6159B23266E12001E9CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE090860E709FAB9A8C9B8D6 /* Pods-iOSTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTube.debug.xcconfig"; path = "Target Support Files/Pods-iOSTube/Pods-iOSTube.debug.xcconfig"; sourceTree = "<group>"; };
+		E8BA044E8DD1608B34F77215 /* Pods-iOSTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTube.release.xcconfig"; path = "Target Support Files/Pods-iOSTube/Pods-iOSTube.release.xcconfig"; sourceTree = "<group>"; };
+		F24A247E49E078B317B866C9 /* Pods_iOSTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB6157E23266E10001E9CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEEDCF13945B29BEBD639B1F /* Pods_iOSTube.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB6159223266E12001E9CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D524A313101A7ED3889B2DDD /* Pods_iOSTubeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2645192084EFAF55CD74D930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D77131C8C2F510E125078AC /* Pods_iOSTube.framework */,
+				F24A247E49E078B317B866C9 /* Pods_iOSTubeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E9E464EC114DB9B893B6D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE090860E709FAB9A8C9B8D6 /* Pods-iOSTube.debug.xcconfig */,
+				E8BA044E8DD1608B34F77215 /* Pods-iOSTube.release.xcconfig */,
+				C93A28506F8B68FBA4C09F04 /* Pods-iOSTubeTests.debug.xcconfig */,
+				9DAF4D868F4DC70F1A1CCFD9 /* Pods-iOSTubeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEB6157823266E10001E9CFA = {
+			isa = PBXGroup;
+			children = (
+				CEB6158323266E10001E9CFA /* iOSTube */,
+				CEB6159823266E12001E9CFA /* iOSTubeTests */,
+				CEB6158223266E10001E9CFA /* Products */,
+				2E9E464EC114DB9B893B6D46 /* Pods */,
+				2645192084EFAF55CD74D930 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB6158223266E10001E9CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6158123266E10001E9CFA /* iOSTube.app */,
+				CEB6159523266E12001E9CFA /* iOSTubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB6158323266E10001E9CFA /* iOSTube */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6158423266E10001E9CFA /* AppDelegate.swift */,
+				CEB6158623266E10001E9CFA /* ViewController.swift */,
+				CEB6158823266E10001E9CFA /* Main.storyboard */,
+				CEB6158B23266E11001E9CFA /* Assets.xcassets */,
+				CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */,
+				CEB6159023266E11001E9CFA /* Info.plist */,
+			);
+			path = iOSTube;
+			sourceTree = "<group>";
+		};
+		CEB6159823266E12001E9CFA /* iOSTubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6159923266E12001E9CFA /* iOSTubeTests.swift */,
+				CEB6159B23266E12001E9CFA /* Info.plist */,
+			);
+			path = iOSTubeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB6158023266E10001E9CFA /* iOSTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB6159E23266E12001E9CFA /* Build configuration list for PBXNativeTarget "iOSTube" */;
+			buildPhases = (
+				83AB34C11948D7BC1CB99853 /* [CP] Check Pods Manifest.lock */,
+				CEB6157D23266E10001E9CFA /* Sources */,
+				CEB6157E23266E10001E9CFA /* Frameworks */,
+				CEB6157F23266E10001E9CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTube;
+			productName = iOSTube;
+			productReference = CEB6158123266E10001E9CFA /* iOSTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB6159423266E12001E9CFA /* iOSTubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB615A123266E12001E9CFA /* Build configuration list for PBXNativeTarget "iOSTubeTests" */;
+			buildPhases = (
+				77014A2CEDDB1DEA697E13D2 /* [CP] Check Pods Manifest.lock */,
+				CEB6159123266E12001E9CFA /* Sources */,
+				CEB6159223266E12001E9CFA /* Frameworks */,
+				CEB6159323266E12001E9CFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB6159723266E12001E9CFA /* PBXTargetDependency */,
+			);
+			name = iOSTubeTests;
+			productName = iOSTubeTests;
+			productReference = CEB6159523266E12001E9CFA /* iOSTubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB6157923266E10001E9CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = iOSTube;
+				TargetAttributes = {
+					CEB6158023266E10001E9CFA = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CEB6159423266E12001E9CFA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CEB6158023266E10001E9CFA;
+					};
+				};
+			};
+			buildConfigurationList = CEB6157C23266E10001E9CFA /* Build configuration list for PBXProject "iOSTube" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB6157823266E10001E9CFA;
+			productRefGroup = CEB6158223266E10001E9CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB6158023266E10001E9CFA /* iOSTube */,
+				CEB6159423266E12001E9CFA /* iOSTubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB6157F23266E10001E9CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6158F23266E11001E9CFA /* LaunchScreen.storyboard in Resources */,
+				CEB6158C23266E11001E9CFA /* Assets.xcassets in Resources */,
+				CEB6158A23266E10001E9CFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB6159323266E12001E9CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77014A2CEDDB1DEA697E13D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTubeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83AB34C11948D7BC1CB99853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSTube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB6157D23266E10001E9CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6158723266E10001E9CFA /* ViewController.swift in Sources */,
+				CEB6158523266E10001E9CFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB6159123266E12001E9CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB6159A23266E12001E9CFA /* iOSTubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB6159723266E12001E9CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB6158023266E10001E9CFA /* iOSTube */;
+			targetProxy = CEB6159623266E12001E9CFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB6158823266E10001E9CFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB6158923266E10001E9CFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB6158E23266E11001E9CFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB6159C23266E12001E9CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB6159D23266E12001E9CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB6159F23266E12001E9CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE090860E709FAB9A8C9B8D6 /* Pods-iOSTube.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7BMLJLG67;
+				INFOPLIST_FILE = iOSTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTube.iOSTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB615A023266E12001E9CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8BA044E8DD1608B34F77215 /* Pods-iOSTube.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7BMLJLG67;
+				INFOPLIST_FILE = iOSTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTube.iOSTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB615A223266E12001E9CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93A28506F8B68FBA4C09F04 /* Pods-iOSTubeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7BMLJLG67;
+				INFOPLIST_FILE = iOSTubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTube.iOSTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTube.app/iOSTube";
+			};
+			name = Debug;
+		};
+		CEB615A323266E12001E9CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAF4D868F4DC70F1A1CCFD9 /* Pods-iOSTubeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7BMLJLG67;
+				INFOPLIST_FILE = iOSTubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOSTube.iOSTubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTube.app/iOSTube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB6157C23266E10001E9CFA /* Build configuration list for PBXProject "iOSTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB6159C23266E12001E9CFA /* Debug */,
+				CEB6159D23266E12001E9CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB6159E23266E12001E9CFA /* Build configuration list for PBXNativeTarget "iOSTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB6159F23266E12001E9CFA /* Debug */,
+				CEB615A023266E12001E9CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB615A123266E12001E9CFA /* Build configuration list for PBXNativeTarget "iOSTubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB615A223266E12001E9CFA /* Debug */,
+				CEB615A323266E12001E9CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB6157923266E10001E9CFA /* Project object */;
+}
