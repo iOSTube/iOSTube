@@ -17,7 +17,10 @@ Swift, UIKit, AVPlayer, Github, Collabotation, ... 등 평소 공부하고 싶�
 
 **Git**
 * [Commit Message Guidelines](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
+* [커밋 메시지로 이슈 닫기](http://minsone.github.io/git/github-commits-closing-issues-via-commit-messages)
 
 **Review**
 * [카카오스토리 팀의 코드 리뷰 도입 사례 – 코드 리뷰, 어디까지 해봤니?](https://tech.kakao.com/2016/02/04/code-review/)
 * [코드리뷰, GitHub로 바로 적용하기](https://academy.realm.io/kr/posts/codereview-howto/)
+
+
