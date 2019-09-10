@@ -5,7 +5,8 @@ Swift, UIKit, AVPlayer, Github, Collabotation, ... 등 평소 공부하고 싶�
 
 ### What Will We Make?
 
-* [Wiki LINK]
+유투브 짝퉁(^_ㅠ) 앱을 만들고자 합니다. 슬프지만 디자인, 스펙 등의 상세는 아래 스크린샷으로 대체합니다 :(
+<img width="800" src="/Resources/iOSTube-spec.jpeg">
 
 ### Develop Rules
 
