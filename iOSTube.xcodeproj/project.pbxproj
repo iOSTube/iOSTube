@@ -13,6 +13,7 @@
 		CEB6158C23266E11001E9CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158B23266E11001E9CFA /* Assets.xcassets */; };
 		CEB6158F23266E11001E9CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */; };
 		CEB6159A23266E12001E9CFA /* iOSTubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6159923266E12001E9CFA /* iOSTubeTests.swift */; };
+		CEBB32092327D61300013C09 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CEBB32082327D61300013C09 /* README.md */; };
 		CEEDCF13945B29BEBD639B1F /* Pods_iOSTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77131C8C2F510E125078AC /* Pods_iOSTube.framework */; };
 		D524A313101A7ED3889B2DDD /* Pods_iOSTubeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24A247E49E078B317B866C9 /* Pods_iOSTubeTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		CEB6159523266E12001E9CFA /* iOSTubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB6159923266E12001E9CFA /* iOSTubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTubeTests.swift; sourceTree = "<group>"; };
 		CEB6159B23266E12001E9CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBB32082327D61300013C09 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DE090860E709FAB9A8C9B8D6 /* Pods-iOSTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTube.debug.xcconfig"; path = "Target Support Files/Pods-iOSTube/Pods-iOSTube.debug.xcconfig"; sourceTree = "<group>"; };
 		E8BA044E8DD1608B34F77215 /* Pods-iOSTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTube.release.xcconfig"; path = "Target Support Files/Pods-iOSTube/Pods-iOSTube.release.xcconfig"; sourceTree = "<group>"; };
 		F24A247E49E078B317B866C9 /* Pods_iOSTubeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSTubeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,13 +85,13 @@
 				C93A28506F8B68FBA4C09F04 /* Pods-iOSTubeTests.debug.xcconfig */,
 				9DAF4D868F4DC70F1A1CCFD9 /* Pods-iOSTubeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		CEB6157823266E10001E9CFA = {
 			isa = PBXGroup;
 			children = (
+				CEBB32082327D61300013C09 /* README.md */,
 				CEB6158323266E10001E9CFA /* iOSTube */,
 				CEB6159823266E12001E9CFA /* iOSTubeTests */,
 				CEB6158223266E10001E9CFA /* Products */,
@@ -214,6 +216,7 @@
 			files = (
 				CEB6158F23266E11001E9CFA /* LaunchScreen.storyboard in Resources */,
 				CEB6158C23266E11001E9CFA /* Assets.xcassets in Resources */,
+				CEBB32092327D61300013C09 /* README.md in Resources */,
 				CEB6158A23266E10001E9CFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
