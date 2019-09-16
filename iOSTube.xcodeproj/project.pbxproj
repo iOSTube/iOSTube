@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEB6158523266E10001E9CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6158423266E10001E9CFA /* AppDelegate.swift */; };
-		CEB6158723266E10001E9CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6158623266E10001E9CFA /* ViewController.swift */; };
+		CEB6158723266E10001E9CFA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB6158623266E10001E9CFA /* MainViewController.swift */; };
 		CEB6158A23266E10001E9CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158823266E10001E9CFA /* Main.storyboard */; };
 		CEB6158C23266E11001E9CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158B23266E11001E9CFA /* Assets.xcassets */; };
 		CEB6158F23266E11001E9CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */; };
@@ -34,7 +34,7 @@
 		C93A28506F8B68FBA4C09F04 /* Pods-iOSTubeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSTubeTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSTubeTests/Pods-iOSTubeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEB6158123266E10001E9CFA /* iOSTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB6158423266E10001E9CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEB6158623266E10001E9CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB6158623266E10001E9CFA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CEB6158923266E10001E9CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEB6158B23266E11001E9CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB6158E23266E11001E9CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,6 +88,92 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		49758B42232FC21D004C25A6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6158423266E10001E9CFA /* AppDelegate.swift */,
+				49758B4D232FC348004C25A6 /* VideoList */,
+				49758B45232FC2A7004C25A6 /* TabBar */,
+				49758B44232FC2A2004C25A6 /* Main */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		49758B44232FC2A2004C25A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6158623266E10001E9CFA /* MainViewController.swift */,
+				CEB6158823266E10001E9CFA /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		49758B45232FC2A7004C25A6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		49758B46232FC2BA004C25A6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CEB6158B23266E11001E9CFA /* Assets.xcassets */,
+				CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		49758B47232FC2BE004C25A6 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		49758B48232FC2C4004C25A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		49758B49232FC2E4004C25A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				49758B4A232FC2F1004C25A6 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49758B4A232FC2F1004C25A6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		49758B4B232FC302004C25A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49758B4C232FC32C004C25A6 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		49758B4D232FC348004C25A6 /* VideoList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideoList;
+			sourceTree = "<group>";
+		};
 		CEB6157823266E10001E9CFA = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +198,13 @@
 		CEB6158323266E10001E9CFA /* iOSTube */ = {
 			isa = PBXGroup;
 			children = (
-				CEB6158423266E10001E9CFA /* AppDelegate.swift */,
-				CEB6158623266E10001E9CFA /* ViewController.swift */,
-				CEB6158823266E10001E9CFA /* Main.storyboard */,
-				CEB6158B23266E11001E9CFA /* Assets.xcassets */,
-				CEB6158D23266E11001E9CFA /* LaunchScreen.storyboard */,
+				49758B4C232FC32C004C25A6 /* Configurations */,
+				49758B47232FC2BE004C25A6 /* Commons */,
+				49758B49232FC2E4004C25A6 /* Utils */,
+				49758B48232FC2C4004C25A6 /* Services */,
+				49758B4B232FC302004C25A6 /* Models */,
+				49758B46232FC2BA004C25A6 /* Assets */,
+				49758B42232FC21D004C25A6 /* App */,
 				CEB6159023266E11001E9CFA /* Info.plist */,
 			);
 			path = iOSTube;
@@ -282,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB6158723266E10001E9CFA /* ViewController.swift in Sources */,
+				CEB6158723266E10001E9CFA /* MainViewController.swift in Sources */,
 				CEB6158523266E10001E9CFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,6 +537,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7BMLJLG67;
 				INFOPLIST_FILE = iOSTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,6 +557,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z7BMLJLG67;
 				INFOPLIST_FILE = iOSTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
